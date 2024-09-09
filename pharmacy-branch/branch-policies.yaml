@@ -2,9 +2,9 @@
 # Manage Pharmacy Branch Staff: This policy covers tenant specific operations related to the management of staff within a pharmacy branch.
 name: manage-branch-staff
 actions:
-  - staff:access
-  - staff:manage
-  - staff:assignroles
+  - ar:staff:access
+  - ar:staff:manage
+  - ar:staff:assignroles
 resources:
   - uur::::pharmacy-branch:staff/*
 
@@ -12,7 +12,7 @@ resources:
 # Audit Pharmacy Branch Staff: This policy covers tenant specific operations related to the auditing of staff within a pharmacy branch.
 name: audit-branch-staff
 actions:
-  - staff:view
+  - ar:staff:view
 resources:
   - uur::::pharmacy-branch:staff/*
 
@@ -20,9 +20,9 @@ resources:
 # Manage Pharmacy Branch Inventory: This policy covers tenant specific operations related to the management of inventory within a pharmacy branch.
 name: manage-branch-inventory
 actions:
-  - inventory:access
-  - inventory:manage
-  - inventory:assignroles
+  - ar:inventory:access
+  - ar:inventory:manage
+  - ar:inventory:assignroles
 resources:
   - uur::::pharmacy-branch:inventory/*
 
@@ -30,7 +30,7 @@ resources:
 # View Pharmacy Branch Inventory: This policy covers tenant specific operations related to accessing the inventory of a pharmacy branch.
 name: view-branch-inventory
 actions:
-  - inventory:view
+  - ar:inventory:view
 resources:
   - uur::::pharmacy-branch:inventory/*
 
@@ -38,7 +38,7 @@ resources:
 # Audit Pharmacy Branch Inventory: This policy covers tenant specific operations related to the auditing of a pharmacy branch's inventory.
 name: audit-branch-inventory
 actions:
-  - inventory:view
+  - ar:inventory:view
 resources:
   - uur::::pharmacy-branch:inventory/*
 
@@ -46,9 +46,9 @@ resources:
 # Manage Pharmacy Branch Orders: This policy covers tenant specific operations related to the management of orders within a pharmacy branch.
 name: manage-branch-orders
 actions:
-  - order:access
-  - order:manage
-  - order:assignroles
+  - ar:order:access
+  - ar:order:manage
+  - ar:order:assignroles
 resources:
   - uur::::pharmacy-branch:order/*
 
@@ -56,7 +56,7 @@ resources:
 # Audit Pharmacy Branch Orders: This policy covers tenant specific operations related to auditing the orders of a pharmacy branch.
 name: audit-branch-orders
 actions:
-  - order:view
+  - ar:order:view
 resources:
   - uur::::pharmacy-branch:order/*
 
@@ -64,7 +64,7 @@ resources:
 # Audit Pharmacy Branch Financials: This policy covers tenant specific operations related to auditing the financials of a pharmacy branch.
 name: audit-branch-financials
 actions:
-  - order:view
+  - ar:order:view
 resources:
   - uur::::pharmacy-branch:order/*
 
