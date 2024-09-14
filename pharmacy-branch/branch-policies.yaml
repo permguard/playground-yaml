@@ -21,7 +21,7 @@ resources:
 name: manage-branch-inventory
 actions:
   - ar:inventory:access
-  - ar:inventory:manage@
+  - ar:inventory:manage
   - ar:inventory:assignroles
 resources:
   - uur::::pharmacy-branch:inventory/*
