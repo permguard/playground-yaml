@@ -92,6 +92,6 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,osx,visualstudiocode
 
-# PermGuard
+# Permguard
 .permguard
-# End of PermGuard
+# End of Permguard

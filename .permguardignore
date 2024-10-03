@@ -1,2 +1,3 @@
 # permguard ignore file
 !platform/**
+pharmacy-branch/branch-policies.yaml
