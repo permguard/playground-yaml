@@ -1,0 +1,5 @@
+name: pharmacy-branch-management
+actions:
+- ar:pharmacy-branch:*k*
+resources:
+- uur:$partition:$account:*:platform:pharmacy-branch/*
